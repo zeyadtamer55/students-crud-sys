@@ -70,7 +70,7 @@ function MainForm() {
 
           <div className="form-row">
             <label htmlFor="age">Student Age</label>
-            <input type="number" name="student-age" id="age" />
+            <input type="number" name="student-age-number" id="age" />
           </div>
 
           {/* <div className="form-row">

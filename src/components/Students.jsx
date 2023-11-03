@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
 import { useGlobalContextFunc } from "../contexts/globalContext";
-import Student from "./student";
+import StudentDefaultMode from "./studentDefaultMode";
+import "../css/student.css"
 
 const Students = () => {
   const { showedStudents } = useGlobalContextFunc();
@@ -14,9 +16,13 @@ const Students = () => {
           showedStudents.length > 0 ?
           
           (
-            showedStudents.map((student, index) => {
+            showedStudents.map((student) => {
               
-                return <Student key={student.id} student={student} index={index} />;
+                return (
+                  <Link className="student" to={`/students-crud-system/${student.id}`} key={student.id}>
+                    <StudentDefaultMode student={student}/>
+                  </Link>
+                );
             
               }
             )

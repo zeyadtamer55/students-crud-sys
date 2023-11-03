@@ -1,4 +1,12 @@
-function StudentDefaultMode({ inputs, student }) {
+function StudentDefaultMode({ student }) {
+  
+  const inputs = Object.keys(student).filter(
+    (input) =>
+      input != "tableData" &&
+      !input.includes("-day") &&
+      !input.includes("-month") 
+  );
+  
   const pStyles = {
     color: "var(--mainColor)",
     display: "inline-block",
