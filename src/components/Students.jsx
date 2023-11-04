@@ -19,7 +19,7 @@ const Students = () => {
             showedStudents.map((student) => {
               
                 return (
-                  <Link className="student" to={`/students-crud-system/${student.id}`} key={student.id}>
+                  <Link className="student" to={`/students-crud-sys/${student.id}`} key={student.id}>
                     <StudentDefaultMode student={student}/>
                   </Link>
                 );

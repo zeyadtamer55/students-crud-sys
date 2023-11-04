@@ -21,7 +21,7 @@ const RemoveStudentPopUp = ({studentName,setShowPop,showPop,student}) => {
           <button className="btn no" onClick={() => setShowPop(!showPop)}>no</button>
           
           <Link
-            to="/students-crud-system/"
+            to="/students-crud-sys/"
             className="btn yes"
             onClick={() => {
                 dispatch(removeStudent(student))

@@ -10,12 +10,11 @@ function App() {
   return (
 
     <BrowserRouter>
-      <h1>hello</h1>
       <Routes>
 
-        <Route path="/students-crud-system/" element={<Home/>}/>
+        <Route path="/students-crud-sys/" element={<Home/>}/>
 
-        <Route path="/students-crud-system/:studentId" element={<StudentPage/>}/>
+        <Route path="/students-crud-sys/:studentId" element={<StudentPage/>}/>
 
 
       </Routes>

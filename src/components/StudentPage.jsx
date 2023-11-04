@@ -36,7 +36,7 @@ function StudentPage() {
          />
       }
 
-      <Link className="back" to="/students-crud-system/">back</Link>
+      <Link className="back" to="/students-crud-sys/">back</Link>
       
       <div className="studentPage">
         <div className="studentDataHolder">

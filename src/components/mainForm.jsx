@@ -73,7 +73,7 @@ function MainForm() {
             <input type="number" name="student-age-number" id="age" />
           </div>
 
-          {/* <div className="form-row">
+          <div className="form-row">
             <label htmlFor="country">Student country</label>
             <input type="text" name="student-country" id="country" />
           </div>
@@ -101,7 +101,7 @@ function MainForm() {
           <div className="form-row">
             <label htmlFor="studentGrade">student grade</label>
             <input type="text" name="student-grade" id="studentGrade" />
-          </div> */}
+          </div>
 
           <div className="form-row">
             <label htmlFor="studentPrice">student price</label>
